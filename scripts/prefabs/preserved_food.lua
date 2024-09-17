@@ -4,7 +4,7 @@ local bbt = KnownModIndex:IsModEnabled("workshop-522117250") -- Check if Birds a
 local mfr = KnownModIndex:IsModEnabled("workshop-861013495") -- Check if More Fruits is enabled
 
 local function makePreservedFood(prefab, raw, cfg, cooked)
-    local mult = getConfig("cfgPreserved"..cfg, "workshop-3207021726") or getConfig("cfgPreserved"..cfg, "DontStarvePreservedFood")
+    local mult = getConfig("cfgPreserved"..cfg, "workshop-3333055751") or getConfig("cfgPreserved"..cfg, "DontStarvePreservedFood")
     
     local assets = {
         Asset("ATLAS", "images/inventoryimages/"..prefab..".xml"),
@@ -82,6 +82,7 @@ return
     makePreservedFood("mandrake_soup",         "mandrakesoup",             "MandrakeSoup"),
     makePreservedFood("meatballs",             "meatballs",                "Meatballs"),
     makePreservedFood("meaty_stew",            "bonestew",                 "MeatyStew"),
+    makePreservedFood("perogies",              "perogies",                 "Perogies"),
     makePreservedFood("moon_shrooms",          "moon_cap",                 "MoonShrooms",          "moon_cap_cooked"),
     makePreservedFood("onions",                "onion",                    "Onions",               "onion_cooked"),
     makePreservedFood("peppers",               "pepper",                   "Peppers",              "pepper_cooked"),

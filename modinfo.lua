@@ -1,7 +1,7 @@
 name = "Preserved Food"
-description = "Preserve your food forever!"
-author = "Tony"
-version = "240330a"
+description = "Preserve your food forever! Originally from Tony"
+author = "Sebas"
+version = "240917b"
 forumthread = ""
 api_version = 10
 all_clients_require_mod = true
@@ -138,6 +138,7 @@ options[#options+1] = addDivider("PRP", "Prepared Foods")
 options[#options+1] = preparedFoods("Meatballs")
 options[#options+1] = preparedFoods("MeatyStew", "Meaty Stew")
 options[#options+1] = preparedFoods("MandrakeSoup", "Mandrake Soup")
+options[#options+1] = preparedFoods("Perogies", "Pierogi")
 
 options[#options+1] = addDivider("BBT", "Birds and Berries and Trees")
 addOptions(bbtPrefabs)
