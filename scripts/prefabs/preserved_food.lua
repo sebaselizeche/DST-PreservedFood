@@ -83,6 +83,7 @@ return
     makePreservedFood("meatballs",             "meatballs",                "Meatballs"),
     makePreservedFood("meaty_stew",            "bonestew",                 "MeatyStew"),
     makePreservedFood("perogies",              "perogies",                 "Perogies"),
+    makePreservedFood("green_cap_cooked",      "green_cap_cooked",         "GreenCapCooked"),
     makePreservedFood("moon_shrooms",          "moon_cap",                 "MoonShrooms",          "moon_cap_cooked"),
     makePreservedFood("onions",                "onion",                    "Onions",               "onion_cooked"),
     makePreservedFood("peppers",               "pepper",                   "Peppers",              "pepper_cooked"),
