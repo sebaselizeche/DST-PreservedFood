@@ -42,7 +42,7 @@ end
 
 local function preparedFoods(name, desc)
     local ext = desc ~= nil and desc or name
-    return {name = "cfgPreserved"..name, label = ""..ext.." to and from can", options = ingredient, default = 1, hover = "The amount of items required to craft a can as well as what you get from opening it."}
+    return {name = "cfgPreserved"..name, label = ""..ext.." to and from can", options = ingredient, default = 5, hover = "The amount of items required to craft a can as well as what you get from opening it."}
 end
 
 local dstPrefabs = {
@@ -120,7 +120,7 @@ options = {
     {name = "cfgRecipeTab", label = "Recipe Tab", options = tab, default = 1, hover = "The crafting tab on which the recipe is found."},
     {name = "cfgRecipeTech", label = "Recipe Tech", options = tech, default = 2, hover = "The research building required to see/craft the recipe."},
     {name = "cfgAddHoney", label = "Honey Required", options = toggle, default = true, hover = "Toggle whether Honey is required or not."},
-    {name = "cfgHoney", label = "How Much Honey", options = ingredient, default = 10, hover = "The amount of Honey required to craft."},
+    {name = "cfgHoney", label = "How Much Honey", options = ingredient, default = 5, hover = "The amount of Honey required to craft."},
     {name = "cfgAddNitre", label = "Nitre Required", options = toggle, default = true, hover = "Toggle whether Nitre is required or not."},
     {name = "cfgNitre", label = "How Much Nitre", options = ingredient, default = 1, hover = "The amount of Nitre required to craft."}
 }
