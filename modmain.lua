@@ -117,6 +117,7 @@ STRINGS.NAMES.PRESERVED_MEATBALLS = "Preserved Meatballs"
 STRINGS.NAMES.PRESERVED_MEATY_STEW = "Preserved Meaty Stew"
 STRINGS.NAMES.PRESERVED_PEROGIES = "Preserved Pierogi"
 STRINGS.NAMES.PRESERVED_GREEN_CAP_COOKED = "Preserved Cooked Green Cap"
+STRINGS.NAMES.PRESERVED_BLUE_CAP_COOKED = "Preserved Cooked Blue Cap"
 STRINGS.NAMES.PRESERVED_ONIONS = "Preserved Onions"
 STRINGS.NAMES.PRESERVED_PEPPERS = "Preserved Peppers"
 STRINGS.NAMES.PRESERVED_POMEGRANATES = "Preserved Pomegranates"
@@ -200,6 +201,7 @@ AddRecipe("preserved_meaty_stew", {Ingredient("bonestew", getConfig("cfgPreserve
 AddRecipe("preserved_mandrake_soup", {Ingredient("mandrakesoup", getConfig("cfgPreservedMandrakeSoup")), nitre and Ingredient("nitre", getConfig("cfgNitre")) or nil}, recipeTab, recipeTech, nil, nil, true, nil, nil, "images/inventoryimages/mandrake_soup.xml")
 AddRecipe("preserved_perogies", {Ingredient("perogies", getConfig("cfgPreservedPerogies")), nitre and Ingredient("nitre", getConfig("cfgNitre")) or nil}, recipeTab, recipeTech, nil, nil, true, nil, nil, "images/inventoryimages/perogies.xml")
 AddRecipe("preserved_green_cap_cooked", {Ingredient("green_cap_cooked", getConfig("cfgPreservedGreenCapCooked")), nitre and Ingredient("nitre", getConfig("cfgNitre")) or nil}, recipeTab, recipeTech, nil, nil, true, nil, nil, "images/inventoryimages/green_cap_cooked.xml")
+AddRecipe("preserved_blue_cap_cooked", {Ingredient("blue_cap_cooked", getConfig("cfgPreservedBlueCapCooked")), nitre and Ingredient("nitre", getConfig("cfgNitre")) or nil}, recipeTab, recipeTech, nil, nil, true, nil, nil, "images/inventoryimages/blue_cap_cooked.xml")
 
 
 -- ACTION --
