@@ -1,7 +1,7 @@
 name = "Preserved Food"
 description = "Preserve your food forever! Originally from Tony"
 author = "Sebas"
-version = "240923"
+version = "240928"
 forumthread = ""
 api_version = 10
 all_clients_require_mod = true
@@ -137,6 +137,7 @@ options[#options+1] = preparedFoods("MeatyStew", "Meaty Stew")
 options[#options+1] = preparedFoods("MandrakeSoup", "Mandrake Soup")
 options[#options+1] = preparedFoods("Perogies", "Pierogi")
 options[#options+1] = preparedFoods("Fishsticks")
+options[#options+1] = preparedFoods("BananaPop", "Banana Pop")
 options[#options+1] = preparedFoods("GreenCapCooked", "Cooked Green Cap")
 options[#options+1] = preparedFoods("BlueCapCooked", "Cooked Blue Cap")
 
